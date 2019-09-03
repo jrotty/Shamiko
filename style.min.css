@@ -422,7 +422,7 @@ a {
 /*    background: rgb(255, 255, 255); */
 }
 /*块*/
-.card {background: rgb(255, 255, 255, 0.9);
+.card {background: rgba(255, 255, 255, 0.9);
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
