@@ -7,6 +7,39 @@ define("Version", $info['version']);
 
 //代码不规范，泽泽两行泪！
 
+?>
+<style>
+.typecho-option label.typecho-label {
+    color: #ff7caa;
+    font-size: 18px;
+} 
+.typecho-option .description {
+    color: #5091e5;
+}
+.typecho-option select,.typecho-option-submit .primary{
+    width: 100%;
+}
+.typecho-option-submit .primary {
+    background-color: #ff7caa;
+}
+#laopo img {
+    width: 100px;border: 4px solid transparent;
+}
+#laopo input[type="radio"], #laopo input[type="checkbox"] {
+    margin-right: 0; 
+    visibility: hidden;
+    float: left;
+    width: 0;
+}
+#laopo input[type='radio']:checked~label img{
+    border: 4px solid #ff7caa;
+}
+#laopo span {
+    margin-right: 0px;
+    display: inline-block;
+}
+</style>
+<?php
 
 function themeConfig($form) {
 
@@ -24,6 +57,21 @@ function themeConfig($form) {
     ), 'gravatar.helingqi.com/wavatar',
     _t('gravatar头像源'), _t('默认gravatar.helingqi.com/wavatar')); 
     $form->addInput($gravatars->multiMode());
+
+
+  
+ $qiehuanlaopo = new Typecho_Widget_Helper_Form_Element_Radio(
+'qiehuanlaopo', array(
+'01' => _t('<img src="'.theurl.'/logo/chara_list01.png">'),
+'02' => _t('<img src="'.theurl.'/logo/chara_list02.png">'),
+'03' => _t('<img src="'.theurl.'/logo/chara_list03.png">'),
+'04' => _t('<img src="'.theurl.'/logo/chara_list04.png">'),
+'05' => _t('<img src="'.theurl.'/logo/chara_list05.png">'),
+'06' => _t('<img src="'.theurl.'/logo/chara_list06.png">'),
+'07' => _t('<img src="'.theurl.'/logo/chara_list07.png">'),
+'08' => _t('<img src="'.theurl.'/logo/chara_list08.png">')
+    ), '01', _t('老婆更换器'), _t('')); $qiehuanlaopo->setAttribute('id', 'laopo');
+    $form->addInput($qiehuanlaopo); 
 
 }
 

@@ -3,7 +3,7 @@
  * 
  * @package Shamiko
  * @author 泽泽社长
- * @version 1.0.1
+ * @version 1.1.0
  * @link https://qqdie.com/archives/shamiko-typecho-themes.html
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
@@ -13,8 +13,8 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <div class="row">
 <div class="col-xs-12"><div class="card">
 <div>
-<img src="<?php echo theurl; ?>img/logo.png" class="logo">
-<h1><?php if ($this->options->logotxt): ?><?php $this->options->logotxt() ?><?php else: ?><?php $this->options->title(); ?><?php endif; ?></h1>
+<img src="<?php echo theurl; ?>logo/chara_list<?php $this->options->qiehuanlaopo(); ?>.png" class="logo">
+<h1 class="logotxt" data-text="<?php if ($this->options->logotxt): ?><?php $this->options->logotxt() ?><?php else: ?><?php $this->options->title(); ?><?php endif; ?>"><?php if ($this->options->logotxt): ?><?php $this->options->logotxt() ?><?php else: ?><?php $this->options->title(); ?><?php endif; ?></h1>
 <p><?php if ($this->options->logod): ?><?php $this->options->logod() ?><?php else: ?><?php $this->options->description() ?><?php endif; ?></p></div>
 </div></div>
 </div></div>
@@ -27,7 +27,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 <div class="col-sm-6 hang">
 <div class="card">
-<a href="<?php $this->permalink() ?>"><h2><?php $this->title(); ?></h2></a>
+<a href="<?php $this->permalink() ?>"><h2 class="post-title"><?php $this->title(); ?></h2></a>
 <div id="github-icons"></div>
 <p class="slr"><?php $this->excerpt(90, ''); ?></p>
 </div></div>
