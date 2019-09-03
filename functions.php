@@ -22,7 +22,7 @@ define("Version", $info['version']);
 .typecho-option-submit .primary {
     background-color: #ff7caa;
 }
-#laopo img {
+#laopo img {padding-right: 6px;
     width: 100px;border: 4px solid transparent;
 }
 #laopo input[type="radio"], #laopo input[type="checkbox"] {
