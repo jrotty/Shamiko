@@ -12,6 +12,6 @@
  全站还有动漫官网的那个漂雪效果，抄用官网素材
 
 ### 感谢以下开源项目
- - https://github.com/necolas/normalize.css
- - https://github.com/jgthms/wysiwyg.css
+ - https://github.com/callmenick/Material-Menu
  - https://github.com/twbs/bootstrap
+ - https://github.com/jgthms/wysiwyg.css
