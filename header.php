@@ -9,7 +9,7 @@
             'author'    =>  _t('%s 发布的文章')
         ), '', ' - '); ?>
 <?php $this->options->title(); ?></title>
-<link rel="stylesheet" href="<?php echo theurl; ?>cssjs/bootstrap.min.css"><link rel="stylesheet" href="<?php echo theurl; ?>style.min.css?201909021732">
+<link rel="stylesheet" href="<?php echo theurl; ?>cssjs/bootstrap.min.css"><link rel="stylesheet" href="<?php echo theurl; ?>style.min.css?20190903">
 <!--[if IE]>
 <script src="http://libs.baidu.com/html5shiv/3.7/html5shiv.min.js"></script>
 <![endif]-->

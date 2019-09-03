@@ -433,7 +433,6 @@ a {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-/*    background-color: #fff; */
     background-clip: border-box;
     border: 1px solid #e3eaef;
     border-radius: .25rem;
@@ -707,17 +706,20 @@ nav#mm-menu:after {
     cursor: pointer;
     opacity: .6;
     filter: Alpha(opacity=60);
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .backToTop:hover {
     opacity: 1;
     filter: Alpha(opacity=100);
 }
 .backToTop:after {
-    width: 50px;
-height: 70px;
+    width: 104px;
+    height: 117px;
     display: block;
     content: ' ';
- background: url(img/top.png);
+ background: url(img/cmn_pgt.png);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
