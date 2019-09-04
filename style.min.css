@@ -86,7 +86,7 @@ body.mm-menu-open {
 h1,h2,h3,h4,h5,h6 {
 	margin-bottom: 22px;
 	color: #5091e5;
-	line-height: 1
+	line-height: 1.15;
 }
 
 h1 {
@@ -528,7 +528,7 @@ color: #ffaebf;}
     box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
 }
 #textarea,#comments input,.protected input {
-    background: rgba(255, 255, 255, 0.7);
+    background: transparent;
 }
 #comments .submit {
     border: 1px solid #bbb;
@@ -779,4 +779,10 @@ color: #ffffff;
 .post-title,.post-title a{
     font-weight: bold;
     color: #ff7caa;
+}
+#rongqi .post-title{
+width:100%;
+	white-space: nowrap;
+	overflow: hidden; 
+	text-overflow:ellipsis;
 }

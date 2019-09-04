@@ -3,7 +3,7 @@
  * 
  * @package Shamiko
  * @author 泽泽社长
- * @version 1.1.0
+ * @version 1.1.1
  * @link https://qqdie.com/archives/shamiko-typecho-themes.html
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
@@ -28,7 +28,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <div class="col-sm-6 hang">
 <div class="card">
 <a href="<?php $this->permalink() ?>"><h2 class="post-title"><?php $this->title(); ?></h2></a>
-<div id="github-icons"></div>
 <p class="slr"><?php $this->excerpt(90, ''); ?></p>
 </div></div>
 <?php endwhile; ?>
