@@ -117,8 +117,8 @@ a {
 	z-index: 20;
 	width: 24px;
 	height: 18px;
-	background: -webkit-linear-gradient(90deg,rgba(33,33,33,0),rgba(33,33,33,0) 7px,#212121 7px,#212121 11px,rgba(33,33,33,0) 11px,rgba(33,33,33,0) 18px);
-	background: linear-gradient(0deg,rgba(33,33,33,0),rgba(33,33,33,0) 7px,#212121 7px,#212121 11px,rgba(33,33,33,0) 11px,rgba(33,33,33,0) 18px);
+	background: -webkit-linear-gradient(90deg,rgba(33,33,33,0),rgba(33,33,33,0) 7px,#9ebeef 7px,#9ebeef 11px,rgba(33,33,33,0) 11px,rgba(33,33,33,0) 18px);
+	background: linear-gradient(0deg,rgba(33,33,33,0),rgba(33,33,33,0) 7px,#9ebeef 7px,#9ebeef 11px,rgba(33,33,33,0) 11px,rgba(33,33,33,0) 18px);
 	font-size: 0;
 	text-indent: -9999px
 }
@@ -129,7 +129,7 @@ a {
 	left: 0;
 	width: 100%;
 	height: 4px;
-	background-color: #212121;
+	background-color: #9ebeef;
 	content: ""
 }
 
@@ -599,7 +599,8 @@ ol.page-navigator li a {
 	visibility: visible;
 	opacity: 1;
 	animation: elastic .5s;
-	z-index: 21
+	z-index: 21;
+	margin: 0;
 }
 .search-form div {
 	position: relative

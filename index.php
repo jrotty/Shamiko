@@ -3,7 +3,7 @@
  * 
  * @package Shamiko
  * @author 泽泽社长
- * @version 1.1.1
+ * @version 1.1.2
  * @link https://qqdie.com/archives/shamiko-typecho-themes.html
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
