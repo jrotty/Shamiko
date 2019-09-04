@@ -47,7 +47,7 @@
 <?php else: ?>
 
 <?php if($this->_currentPage < ceil($this->getTotal() / $this->parameter->pageSize)): ?>
-<div class="card tc"><?php $this->pageLink('<span>点击加载更多</span>','next'); ?></div><?php endif; ?>
+<div class="card tc loadmore"><?php $this->pageLink('<span>点击加载更多</span>','next'); ?></div><?php endif; ?>
 <?php endif; ?>
 </div>
 </div>

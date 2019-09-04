@@ -14,7 +14,7 @@ $('.js-search').toggleClass('is-visible');}
 jQuery(document).ready(function($) {
 if(!$("#nojia").length > 0){
     //点击下一页的链接(即那个a标签)
-    $('.next span').click(function() {
+    $('.loadmore a.next').click(function() {
         $this = $(this);
         $this.addClass('loading').text('正在努力加载'); //给a标签加载一个loading的class属性，用来添加加载效果
         var href =  $('.next').attr('href'); //获取下一页的链接地址
