@@ -615,13 +615,14 @@ ol.page-navigator li a {
 	cursor: pointer;
 }
 .search_close:after,.search_close:before {
-	background-color: #9ebeef;
+	background-color: #ffa8b9;
 	position: absolute;
 	content: "";
 	width: 30px;
-	height: 2px;
+	height: 5px;
 	top: 17px;
 	left: 2px
+    border-radius: 5px;
 }
 .search_close:before {
 	transform: rotate(-45deg);
