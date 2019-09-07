@@ -778,7 +778,7 @@ color: #ffffff;
     right: 5px;
     bottom: 10px;    opacity: .3;    filter: Alpha(opacity=30);
 }
-.post-title,.post-title a{
+.post-title,.post-title a,.loadmore{
     font-weight: bold;
     color: #ff7caa;
 }
