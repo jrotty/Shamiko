@@ -35,8 +35,7 @@ $('#rongqi').append($res.fadeIn(500)); //将数据加载加进posts-loop的标�
                     if (newhref != undefined) {
 $('.next').attr('href', newhref);
                     } else {
-                        $('.next').addClass('loading').text('QAQ没了');//如果没有下一页了
-                        $('.next').attr('href', 'javascript:void(0);');
+                        $('.loadmore').html('QAQ没了');//如果没有下一页了
                     }
                 }
             });
