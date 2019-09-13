@@ -11,6 +11,9 @@
  默认头像logo，背景图，返回顶部按钮，侧栏头图，侧栏底图，文章右下角底图，搜索栏也有图...
  全站还有动漫官网的那个漂雪效果，抄用官网素材
 
+### 视频展示
+https://www.bilibili.com/video/av67579226
+
 ### 感谢以下开源项目
  - https://github.com/callmenick/Material-Menu
  - https://github.com/twbs/bootstrap
