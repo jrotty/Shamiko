@@ -6,6 +6,7 @@ $info = Typecho_Plugin::parseInfo(__DIR__ . '/index.php');
 define("Version", $info['version']);
 
 //代码不规范，泽泽两行泪！
+function themeConfig($form) {
 
 ?>
 <style>
@@ -40,8 +41,6 @@ define("Version", $info['version']);
 }
 </style>
 <?php
-
-function themeConfig($form) {
 
     $logotxt = new Typecho_Widget_Helper_Form_Element_Text('logotxt', NULL, NULL, _t('标题文字'), _t('用于显示在首页，不填的话默认为站点标题'));
     $form->addInput($logotxt);
