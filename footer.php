@@ -39,7 +39,7 @@ $color=array("#9ebeef;","#ffaebf;","#CDDC39",); ?>
 <div class="container">
 <div class="row">
 <div class="col-sm-12"><div class="card"><div>
-<?php echo date('Y'); ?> © <a target="_blank" href="http://typecho.org/" rel="external nofollow">Typecho</a> Theme <a target="_blank" href="https://qqdie.com/archives/shamiko-typecho-themes.html" rel="external nofollow">Shamiko</a> 
+<?php echo date('Y'); ?> © <a target="_blank" href="http://typecho.org/" rel="external nofollow">Typecho</a> Theme <a target="_blank" href="https://github.com/jrotty/Shamiko" rel="external nofollow">Shamiko</a> 
 </div></div></div>
 </div></div>
 </div>
