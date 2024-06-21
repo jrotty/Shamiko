@@ -4,7 +4,7 @@
  * @package Shamiko
  * @author 泽泽社长
  * @version 1.1.3
- * @link https://qqdie.com/archives/shamiko-typecho-themes.html
+ * @link https://github.com/jrotty/Shamiko
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  ?>
