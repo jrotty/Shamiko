@@ -73,7 +73,7 @@ $color=array("#9ebeef;","#ffaebf;","#CDDC39",); ?>
 </nav>
 <script src="<?php echo theurl; ?>cssjs/materialMenu.min.js"></script>
 <script>var menu = new Menu;</script><div class="mm-menu-mask"></div>
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="<?php echo theurl; ?>main.js?20190904"></script>
 <script src="<?php echo theurl; ?>cssjs/snowfall.jquery.js"></script>
 <!-- snowfall.js setting-->
