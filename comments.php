@@ -1,6 +1,6 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; 
 //如果已配置头像源则忽略主题头像源设置
-if(!__TYPECHO_GRAVATAR_PREFIX__){
+if(!defined('__TYPECHO_GRAVATAR_PREFIX__')){
 define('__TYPECHO_GRAVATAR_PREFIX__', '//'.$this->options->gravatars.'/');
 }
 ?>
