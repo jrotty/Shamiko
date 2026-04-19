@@ -84,8 +84,10 @@ function themeInit($archive)
  Helper::options()->commentsOrder= 'DESC';
 // 强奸程序，突破评论回复楼层限制
  Helper::options()->commentsMaxNestingLevels = 999;
+if($archive->is('single')){
 // 文章内链接新窗口打开
 $archive->content=preg_replace("/<a href=\"([^\"]*)\">/i", "<a href=\"\\1\" target=\"_blank\" rel=\"nofollow\">", $archive->content);
+}
 }
 function is_ajax()
 {
